@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '허지연바보멍청이뿡☆💨'
+    return 'Hello Cloud! - BlueGreen_Test'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
